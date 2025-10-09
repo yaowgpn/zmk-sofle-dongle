@@ -119,11 +119,11 @@
 
         L2_NUM_Sym {
             bindings = <
-&kp TILDE  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4            &mmv MOVE_UP     &kp F6           &kp F7  &kp F8  &kp F9   &kp F10      &trans
-&trans     &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &kp LEFT_PARENTHESIS    &mmv MOVE_DOWN   &kp RPAR         &kp N7  &kp N8  &kp N9   &kp UNDER    &kp PLUS
-&trans     &out OUT_USB  &out OUT_BLE    &trans        &trans        &kp LBKT                &mmv MOVE_LEFT   &kp RBKT         &kp N4  &kp N5  &kp N6   &kp LBRC     &kp RBRC
-&trans     &sys_reset    &trans          &bootloader   &trans        &kp LEFT_BRACE          &mmv MOVE_RIGHT  &kp RIGHT_BRACE  &kp N1  &kp N2  &kp N3   &bootloader  &trans
-&trans     &trans        &trans          &trans        &trans        &trans                  &trans           &trans           &trans  &kp N0  &kp DOT  &kp EQUAL
+&kp TILDE        &kp F1         &kp F2        &kp F3                &kp F4                 &kp F5                  &mmv MOVE_UP     &kp F6                 &kp F7  &kp F8  &kp F9   &kp F10    &kp F11
+&kp EXCLAMATION  &kp AT_SIGN    &kp POUND     &kp DOLLAR            &kp PERCENT            &kp LEFT_BRACKET        &mmv MOVE_DOWN   &kp RIGHT_BRACKET      &kp N7  &kp N8  &kp N9   &kp MINUS  &kp F12
+&kp CARET        &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_PARENTHESIS    &mmv MOVE_LEFT   &kp RIGHT_PARENTHESIS  &kp N4  &kp N5  &kp N6   &kp MINUS  &kp PLUS
+&trans           &kp EQUAL      &kp MINUS     &kp LESS_THAN         &kp GREATER_THAN       &kp LEFT_BRACE          &mmv MOVE_RIGHT  &kp RIGHT_BRACE        &kp N1  &kp N2  &kp N3   &kp SLASH  &kp ASTERISK
+&trans           &trans         &trans        &trans                &trans                 &trans                  &trans           &trans                 &trans  &kp N0  &kp DOT  &kp EQUAL
             >;
 
             sensor-bindings = <&scroll_encoder>;
