@@ -618,10 +618,8 @@ rect.held, rect.combo.held {
 <g transform="translate(314, 283) rotate(30.0)" class="key keypos-56">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#L2-NAV">
-<text x="0" y="-4" class="key tap layer-activator">
-<tspan x="0" dy="-0.6em">L2</tspan><tspan x="0" dy="1.2em">NAV</tspan>
-</text>
+<a href="#L2_NAV">
+<text x="0" y="-4" class="key tap layer-activator">L2_NAV</text>
 </a></g>
 <g transform="translate(389, 294) rotate(30.0)" class="key backspace keypos-57">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key backspace side"/>
@@ -644,7 +642,7 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">
-<tspan x="0" dy="-1.2em">L3</tspan><tspan x="0" dy="1.2em">Num&amp;</tspan><tspan x="0" dy="1.2em">Symbol</tspan>
+<tspan x="0" dy="-1.2em">L3_Num</tspan><tspan x="0" dy="1.2em">&amp;</tspan><tspan x="0" dy="1.2em">Symbol</tspan>
 </text>
 </g>
 <g transform="translate(672, 259)" class="key enter keypos-61">
@@ -670,8 +668,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 388)" class="layer-L0_Colemak">
-<text x="0" y="28" class="label" id="L0_Colemak">L0_Colemak:</text>
+<g transform="translate(40, 388)" class="layer-L1_Colemak">
+<text x="0" y="28" class="label" id="L1_Colemak">L1_Colemak:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -1005,8 +1003,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 776)" class="layer-L2 NAV">
-<text x="0" y="28" class="label" id="L2-NAV">L2 NAV:</text>
+<g transform="translate(40, 776)" class="layer-L2_NAV">
+<text x="0" y="28" class="label" id="L2_NAV">L2_NAV:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -1358,8 +1356,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 1165)" class="layer-L3 Num&amp;Symbol">
-<text x="0" y="28" class="label" id="L3-NumSymbol">L3 Num&amp;Symbol:</text>
+<g transform="translate(40, 1165)" class="layer-L3_Num&amp;Symbol">
+<text x="0" y="28" class="label" id="L3_NumSymbol">L3_Num&amp;Symbol:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
