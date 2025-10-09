@@ -70,7 +70,7 @@
 
         CAPLOCK {
             bindings = <&kp CAPSLOCK>;
-            key-positions = <51>;
+            key-positions = <51 39>;
         };
     };
 
