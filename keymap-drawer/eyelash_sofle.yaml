@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyelash_sofle}
 layers:
   L0_QWERTY:
-  - {t: '$$mdi:keyboard-esc$$', s: '$$mdi:keyboard-esc$$'}
+  - {t: '$$mdi:keyboard-esc$$', s: '`'}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
@@ -55,16 +55,16 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-command$$
   - L2_NAV
   - {t: '$$mdi:backspace$$', type: backspace}
   - PLAY PAUSE
   - $$mdi:keyboard-space$$
   - L3_Num&Symbol
   - {t: '$$mdi:keyboard-return$$', type: enter}
+  - RIGHT GUI
   - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-command$$
   L1_Colemak:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -196,7 +196,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   L3_Num&Symbol:
-  - '~'
+  - {t: '`', s: '~'}
   - F1
   - F2
   - F3
@@ -261,7 +261,7 @@ layers:
   - {t: ., s: '>'}
   - {t: '=', s: +}
   L4_ADJ_MEDIA:
-  - '&toggle_on 1'
+  - {t: L0_QWERTY, h: toggle}
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
@@ -274,7 +274,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:backup-restore$$', type: bootloader}
-  - '&toggle_off 1'
+  - {t: L1_Colemak, h: toggle}
   - RGB EFR
   - RGB EFF
   - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
@@ -282,9 +282,9 @@ layers:
   - BT CLR ALL
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:volume-low$$
-  - $$mdi:volume-off$$
-  - $$mdi:volume-high$$
+  - $$mdi:skip-previous$$
+  - PLAY PAUSE
+  - $$mdi:skip-next$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - RGB TOG
@@ -295,12 +295,12 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:skip-previous$$
-  - PLAY PAUSE
-  - $$mdi:skip-next$$
+  - VOLUME DOWN
+  - $$mdi:volume-off$$
+  - $$mdi:volume-high$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:transfer$$', type: trans}
   - RGB SPD
   - RGB SPI
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -314,17 +314,17 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:volume-off$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: L4_ADJ_MEDIA, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: L4_ADJ_MEDIA, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - RIGHT GUI
+  - $$mdi:apple-keyboard-option$$
 combos:
 - p: [51, 39]
   k: $$mdi:apple-keyboard-caps$$
