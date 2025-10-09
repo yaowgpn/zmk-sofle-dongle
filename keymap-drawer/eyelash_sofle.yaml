@@ -261,7 +261,7 @@ layers:
   - {t: ., s: '>'}
   - {t: '=', s: +}
   L4_ADJ_MEDIA:
-  - {t: L0_Colemak, h: toggle}
+  - '&toggle_on 1'
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
@@ -274,10 +274,10 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:backup-restore$$', type: bootloader}
-  - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
+  - '&toggle_off 1'
   - RGB EFR
   - RGB EFF
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
   - $$mdi:bluetooth-off$$
   - BT CLR ALL
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
