@@ -57,7 +57,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
-  - L3_Num&Symbol
+  - L2_NAV
   - {t: '$$mdi:backspace$$', type: backspace}
   - PLAY PAUSE
   - $$mdi:keyboard-space$$
@@ -181,13 +181,13 @@ layers:
   - Alt+$$mdi:arrow-left-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Alt+$$mdi:arrow-right-bold$$
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -233,7 +233,7 @@ layers:
   - {t: '4', s: $}
   - {t: '5', s: '%'}
   - {t: '6', s: ^}
-  - {t: '-', s: _}
+  - '*'
   - +
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '=', s: +}
@@ -247,16 +247,16 @@ layers:
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
   - {t: /, s: '?'}
-  - '*'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: L4_ADJ_MEDIA, h: toggle, type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: L4_ADJ_MEDIA, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
+  - {type: held}
   - {t: '0', s: )}
   - {t: ., s: '>'}
   - {t: '=', s: +}
