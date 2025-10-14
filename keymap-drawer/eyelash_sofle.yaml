@@ -220,7 +220,7 @@ layers:
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '-', s: _}
   - F12
   - ^
   - '&'
@@ -233,8 +233,8 @@ layers:
   - {t: '4', s: $}
   - {t: '5', s: '%'}
   - {t: '6', s: ^}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '*'
+  - +
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '=', s: +}
   - {t: '-', s: _}
@@ -259,7 +259,7 @@ layers:
   - {type: held}
   - {t: '0', s: )}
   - {t: ., s: '>'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '=', s: +}
   L4_ADJ_MEDIA:
   - {t: L0_QWERTY, h: toggle}
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
