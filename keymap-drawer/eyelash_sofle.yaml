@@ -238,8 +238,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '-', s: _}
   - {t: '=', s: +}
-  - <
-  - '>'
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
   - '{'
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - '}'
