@@ -215,7 +215,7 @@ layers:
   - '{'
   - '}'
   - '{'
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - '}'
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
