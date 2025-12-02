@@ -146,9 +146,9 @@ layers:
   - F11
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:mouse-scroll-wheel$$
-  - $$mdi:arrow-right-bold$$
+  - Gui+$$mdi:arrow-left-bold$$
+  - $$mdi:arrow-up-bold$$
+  - Gui+$$mdi:arrow-right-bold$$
   - '&mkp MB5'
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - PG UP
@@ -159,9 +159,9 @@ layers:
   - F12
   - {t: '$$mdi:transfer$$', type: trans}
   - '~'
-  - $$mdi:volume-low$$
-  - $$mdi:play-pause$$
-  - $$mdi:volume-high$$
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
   - '&mkp MB4'
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - PG DN
