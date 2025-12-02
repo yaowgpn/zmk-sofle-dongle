@@ -120,11 +120,11 @@
 
         layer2_nav {
             bindings = <
-&kp GRAVE   &kp F1     &kp F2             &kp F3         &kp F4            &kp F5      &mmv MOVE_UP     &kp F6     &kp F7        &kp F8    &kp F9         &kp F10    &kp F11
-&trans      &trans     &kp LEFT_ARROW     &mkp MCLK      &kp RIGHT         &mkp MB5    &mmv MOVE_DOWN   &kp PG_UP  &kp HOME      &kp UP    &kp END        &kp MINUS  &kp F12
-&trans      &kp TILDE  &kp C_VOLUME_DOWN  &kp C_PP       &kp C_VOL_UP      &mkp MB4    &mmv MOVE_LEFT   &kp PG_DN  &kp LEFT      &kp DOWN  &kp RIGHT      &kp STAR   &kp PLUS
-&trans      &kp MINUS  &kp EQUAL          &kp LESS_THAN  &kp GREATER_THAN  &trans      &mmv MOVE_RIGHT  &trans     &kp LA(LEFT)  &none     &kp LA(RIGHT)  &kp SLASH  &trans
-&kp C_MUTE  &trans     &trans             &trans         &trans            &trans      &trans           &trans     &to 4         &trans    &trans         &kp EQUAL
+&kp GRAVE   &kp F1     &kp F2              &kp F3         &kp F4            &kp F5      &mmv MOVE_UP     &kp F6     &kp F7        &kp F8    &kp F9         &kp F10    &kp F11
+&trans      &trans     &kp LG(LEFT_ARROW)  &kp UP         &kp LG(RIGHT)     &mkp MB5    &mmv MOVE_DOWN   &kp PG_UP  &kp HOME      &kp UP    &kp END        &kp MINUS  &kp F12
+&trans      &kp TILDE  &kp LEFT            &kp DOWN       &kp RIGHT         &mkp MB4    &mmv MOVE_LEFT   &kp PG_DN  &kp LEFT      &kp DOWN  &kp RIGHT      &kp STAR   &kp PLUS
+&trans      &kp MINUS  &kp EQUAL           &kp LESS_THAN  &kp GREATER_THAN  &trans      &mmv MOVE_RIGHT  &trans     &kp LA(LEFT)  &none     &kp LA(RIGHT)  &kp SLASH  &trans
+&kp C_MUTE  &trans     &trans              &trans         &trans            &trans      &trans           &trans     &to 4         &trans    &trans         &kp EQUAL
             >;
 
             display-name = "L2 Navigation";
